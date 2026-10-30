@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.env
+chroma_db/
+chroma_db.broken.*/
+*.pdf
+*.docx
+data/sample_docs/*.pdf
+.pytest_cache/
+.venv/
+venv/
+web/node_modules/
+web/.next/
+
+# Operator-built Wikipedia text shards and bulk-index checkpoints (large / local)
+data/wiki_txt/
+data/wiki_txt_build/
+data/.bulk_public_checkpoint.json
+data/.bulk_*checkpoint*.json
